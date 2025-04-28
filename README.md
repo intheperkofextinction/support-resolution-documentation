@@ -1,16 +1,18 @@
 # support-resolution-documentation
-Issue Resolution Report
+
+## Issue Resolution Report
+
 This repository documents the solutions to various issues encountered within the platform. The issues addressed include:
 
-Issue 1: Login Service - Error 401 Unauthorized
+ Issue 1: Login Service - Error 401 Unauthorized
 
-Issue 2: Dashboard Not Loading - 504 Gateway Timeout
+ Issue 2: Dashboard Not Loading - 504 Gateway Timeout
 
-Issue 3: API Submission Failure - 500 Internal Server Error
+ Issue 3: API Submission Failure - 500 Internal Server Error
 
 The following sections outline the analysis, solution steps, and resolution confirmation for each of these issues.
 
-Table of Contents
+## Table of Contents
 Issue 1: Login Service - Error 401 Unauthorized
 
 Issue 2: Dashboard Not Loading - 504 Gateway Timeout
@@ -19,7 +21,7 @@ Issue 3: API Submission Failure - 500 Internal Server Error
 
 Conclusion
 
-Issue 1: Login Service - Error 401 Unauthorized
+## Issue 1: Login Service - Error 401 Unauthorized
 Problem Analysis
 Users reported encountering an Error 401 Unauthorized message when attempting to log in. The issue was intermittent and affected some users during peak traffic times.
 
@@ -33,7 +35,7 @@ Enhanced Session Management: Implemented token refresh logic to avoid session ex
 Resolution Confirmation
 After implementing these changes, the issue was resolved, and users were able to log in successfully without encountering the 401 error.
 
-Issue 2: Dashboard Not Loading - 504 Gateway Timeout
+$$ Issue 2: Dashboard Not Loading - 504 Gateway Timeout
 Problem Analysis
 The Dashboard was failing to load for some users, triggering a 504 Gateway Timeout error. This was impacting access to real-time data and analytics.
 
@@ -49,7 +51,7 @@ Load Balancing Adjustments: Improved the server infrastructure with better load 
 Resolution Confirmation
 After implementing these optimizations, the dashboard began loading within the expected time frame, and the 504 error was no longer observed.
 
-Issue 3: API Submission Failure - 500 Internal Server Error
+## Issue 3: API Submission Failure - 500 Internal Server Error
 Problem Analysis
 When users attempted to submit data through the platform's API, some experienced a 500 Internal Server Error. The issue was affecting critical operations, leading to failed submissions.
 
@@ -63,7 +65,7 @@ Improved Error Handling: Enhanced the error handling mechanism to provide more i
 Resolution Confirmation
 After deploying the fix, API submissions were successfully processed, and no further 500 Internal Server Errors were reported by users.
 
-Conclusion
+## Conclusion
 All the issues described in this document have been successfully resolved through targeted analysis and implementation of the proposed solutions. The fixes have been validated, and users have reported improved performance, including:
 
 Successful logins with no 401 errors.
